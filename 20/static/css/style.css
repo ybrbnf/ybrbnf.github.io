@@ -7,13 +7,35 @@ body {
   background-color: #ffffff;
 }
 
+.container{
+  position: relative; /* Абсолютное позиционирование */
+  margin-left: 30%; /* Отступ слева */
+  margin-right: 30%;
+  padding: 10px; /* Поля вокруг текста */
+  text-align: center;
+  
+}
+
+.text{
+   position: absolute; /* Абсолютное позиционирование */
+   top: 35px;
+   left: 20px;
+}
+
+
+.signature{
+   position: absolute; /* Абсолютное позиционирование */
+   bottom: 15px;
+   right: 20px;
+}
 .joke {
   height: 200px;
-  width: 400px;
+  margin-left: 10%; /* Отступ слева */
+  margin-right: 10%;
   position: relative;
   margin: 15px 0;
   padding: 39px 19px 14px;
-  *padding-top: 19px;
+  padding-top: 19px;
   background-color: #eeeeee;
   border: 2px solid #555555;
   -webkit-border-radius: 20px;
