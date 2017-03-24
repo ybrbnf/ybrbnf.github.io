@@ -56,5 +56,5 @@ body {
 
 .solution{
    position: absolute; /* Абсолютное позиционирование */
-   bottom: 15px;
+   bottom: 5px;
    right: 20px;
