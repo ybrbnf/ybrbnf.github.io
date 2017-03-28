@@ -1,37 +1,19 @@
-body {
-  margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: #333333;
-  background-color: #ffffff;
-}
-
-.container{
-  position: relative; /* Абсолютное позиционирование */
-  margin-left: 30%; /* Отступ слева */
-  margin-right: 30%;
-  padding: 10px; /* Поля вокруг текста */
-  text-align: center;
-  
-}
 
 .text{
-   position: absolute; /* Абсолютное позиционирование */
+   position: absolute;
    top: 35px;
    left: 20px;
 }
 
 
 .signature{
-   position: absolute; /* Абсолютное позиционирование */
+   position: absolute;
    bottom: 15px;
    right: 20px;
 }
 .joke {
   height: 200px;
-  margin-left: 10%; /* Отступ слева */
-  margin-right: 10%;
+  margin-right: 30%;
   position: relative;
   margin: 15px 0;
   padding: 39px 19px 14px;
